@@ -1,0 +1,51 @@
+.container {
+    padding: 10px;
+    width: 500px;
+    height: 100px;
+    border: 3px solid purple;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.results {
+    box-sizing: border-box;
+    align-content: center;
+    padding: 10px;
+    width: 300px;
+    height: 90px;
+    border: 2px solid purple;
+}
+
+.results p {
+    margin: 8px 0;
+}
+
+.results h3 {
+    margin: 5px 0;
+}
+
+.score {
+    box-sizing: border-box;
+    align-content: center;
+    padding: 10px;
+    width: 140px;
+    height: 90px;
+    border: 2px solid purple;
+}
+
+.score p {
+    margin: 8px 0;
+}
+
+.score h3 {
+    margin: 5px 0;
+}
+
+.choice-buttons {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
